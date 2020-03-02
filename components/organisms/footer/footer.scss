@@ -1,0 +1,160 @@
+@import 'components/templates/home/home';
+
+.footer {
+  background-color: $color-grey-dark-3;
+  padding: 10rem 0;
+  font-size: 1.5rem;
+
+  @include responsive(tab-port) {
+    padding: 8rem 0;
+  }
+
+  &_logo_box {
+    text-align: center;
+    margin-bottom: 7rem;
+
+    @include responsive(tab-port) {
+      margin-bottom: 5rem;
+    }
+  }
+
+  &_logo {
+    width: 16rem;
+    height: auto;
+  }
+
+  &_navigation {
+    border-top: 1px solid $color-grey-dark-1;
+    padding-top: 3rem;
+    display: inline-block;
+
+    @include responsive(tab-port) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  &_list {
+    list-style: none;
+  }
+
+  &_item {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
+  }
+
+  &_link {
+    &:link,
+    &:visited {
+      color: $color-grey-light-1;
+      background-color: $color-grey-dark-3;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: inline-block;
+      transition: all .2s;
+    }
+
+    &:hover,
+    &:active {
+      color: $color-primary;
+      box-shadow: 0 2rem 3rem rgba($color-black, .4);
+      transform: rotate(5deg) scale(1.3);
+    }
+  }
+
+  &_copyright {
+    color: $color-grey-light-1;
+    border-top: 1px solid $color-grey-dark-1;
+    padding-top: 3rem;
+
+    @include responsive(tab-port) {
+      width: 100%;
+      text-align: center;
+      float: none;
+    }
+  }
+
+}
+
+
+.popup {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba($color-black, .8);
+  z-index: 15;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s;
+
+
+  @supports (backdrop-filter: blur(8px) or (-webkit-backdrop-filter: blur(8px))) {
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    background-color: rgba($color-black, .5);
+  }
+
+  &:target {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &_close {
+    &:link,
+    &:visited {
+      display: inline-block;
+      position: absolute;
+      top: 2rem;
+      right: 3rem;
+      text-decoration: none;
+      font-size: 3rem;
+      color: $color-grey-dark-1;
+      transition: all .2s;
+    }
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+
+  &_content {
+    @include absCenter;
+    width: 80%;
+    background-color: $color-white;
+    box-shadow: 0 2rem 4rem rgba($color-black, .2);
+    border-radius: 3px;
+    overflow: hidden;
+    display: table;
+  }
+
+  &_left {
+    width: 33.333333%;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  &_right {
+    width: 66.666667%;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 4rem 6rem;
+  }
+
+  &_image {
+    display: block;
+    width: 100%;
+  }
+
+  &_text {
+    font-size: 1.5rem;
+    column-count: 2;
+    column-gap: 3rem;
+    column-rule: 1px solid $color-grey-light-2;
+    hyphens: auto;
+  }
+}

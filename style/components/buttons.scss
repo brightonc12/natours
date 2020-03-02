@@ -1,0 +1,104 @@
+@import "style/abstracts/variables";
+
+.btn {
+  &,
+  &:link,
+  &:visited {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 2rem 3.5rem;
+    display: inline-block;
+    border-radius: 8rem;
+    transition: all .2s;
+    position: relative;
+
+    // for <button>
+    border: none;
+    cursor: pointer;
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  }
+
+  &White {
+    color: $color-grey-dark-1;
+    background-color: $color-white;
+
+    &::after {
+      background-color: $color-white;
+    }
+
+    &:hover::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+    }
+  }
+
+   &_green {
+    color: $color-white;
+    background-color: $color-primary;
+
+    &::after {
+      background-color: $color-primary;
+    }
+
+    &:hover::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+    }
+  }
+
+  &::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+    border-radius: 9rem;
+  }
+
+  &Animated {
+    animation: moveInBottom .5s .5s ease-out;
+    animation-fill-mode: backwards;
+  }
+
+  &Text {
+
+    &:link,
+    &:visited {
+      font-size: 1.8rem;
+      color: $color-primary;
+      display: inline-block;
+      text-decoration: none;
+      border-bottom: 1px solid $color-primary;
+      padding: .2rem;
+      transition: all .2s;
+    }
+
+    &:hover {
+      color: $color-white;
+      background-color: $color-primary;
+      box-shadow: 0 2rem 3rem rgba($color-black, .15);
+      transform: translateY(-.2rem);
+    }
+
+    &:active {
+      box-shadow: 0 .6rem 1.5rem rgba($color-black, .15);
+      transform: translateY(0);
+    }
+  }
+}

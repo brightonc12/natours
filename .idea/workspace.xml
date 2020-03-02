@@ -1,9 +1,248 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd499b04-7d66-4159-9d8a-bd3e00f0dc6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/brighton.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/organisms/about/About.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/organisms/about/about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/organisms/book/Book.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/organisms/book/book.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/organisms/features/Features.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/organisms/features/features.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/organisms/footer/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/organisms/footer/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/organisms/header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/organisms/header/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/organisms/story/Stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/organisms/story/stories.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/organisms/tours/Tours.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/organisms/tours/tours.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/templates/home/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/templates/home/home.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/next-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/images/hero-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/images/hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/images/logo-green-1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/images/logo-green-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/images/logo-green-small-1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/images/logo-green-small-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/images/logo-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/images/nat-1-large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/images/nat-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/images/nat-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/images/nat-2-large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/images/nat-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/images/nat-3-large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/images/nat-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/images/nat-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/images/nat-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/images/nat-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/images/nat-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/images/nat-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/images/nat-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/videos/video.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/videos/video.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/abstracts/functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/abstracts/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/abstracts/mixins.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/abstracts/utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/abstracts/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/base/animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/base/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/base/base.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/base/typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/components/buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/components/card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/components/composition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/components/feature_box.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/layout/grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="TypeScript JSX File" />
+        <option value="SCSS File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WElTasOky7sV3WBdOWQ9iTHvTw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.YAML" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/static" />
+      <recent name="$PROJECT_DIR$/style/base" />
+      <recent name="$PROJECT_DIR$/components/organisms/header" />
+      <recent name="$PROJECT_DIR$/components/organisms/about" />
+      <recent name="$PROJECT_DIR$/components/organisms" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd499b04-7d66-4159-9d8a-bd3e00f0dc6d" name="Default Changelist" comment="" />
+      <created>1578722643069</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578722643069</updated>
+      <workItem from="1578722644518" duration="60940000" />
+      <workItem from="1578909411035" duration="5405000" />
+      <workItem from="1578919857242" duration="3415000" />
+      <workItem from="1578937112151" duration="4076000" />
+      <workItem from="1579002392371" duration="6234000" />
+      <workItem from="1579094217765" duration="5000" />
+      <workItem from="1579099610247" duration="32722000" />
+      <workItem from="1579292284461" duration="3979000" />
+      <workItem from="1579342324573" duration="3975000" />
+      <workItem from="1579506611382" duration="7761000" />
+      <workItem from="1579520676620" duration="13823000" />
+      <workItem from="1579591652572" duration="7150000" />
+      <workItem from="1579619325003" duration="15980000" />
+      <workItem from="1579701611561" duration="15774000" />
+      <workItem from="1579781042416" duration="112000" />
+      <workItem from="1583138974151" duration="283000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="643" y="247" width="624" height="554" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579099709710">
+      <screen x="0" y="27" width="1920" height="987" />
+    </state>
+    <state x="643" y="247" width="624" height="554" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.27.1920.987@0.27.1920.987" timestamp="1579099709710" />
+    <state x="693" y="269" width="524" height="510" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578829431887">
+      <screen x="0" y="27" width="1920" height="987" />
+    </state>
+    <state x="693" y="269" width="524" height="510" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.987@0.27.1920.987" timestamp="1578829431887" />
+    <state width="1874" height="254" key="GridCell.Tab.0.bottom" timestamp="1578872639004">
+      <screen x="0" y="27" width="1920" height="987" />
+    </state>
+    <state width="1874" height="254" key="GridCell.Tab.0.bottom/0.27.1920.987@0.27.1920.987" timestamp="1578872639004" />
+    <state width="1874" height="254" key="GridCell.Tab.0.center" timestamp="1578872639003">
+      <screen x="0" y="27" width="1920" height="987" />
+    </state>
+    <state width="1874" height="254" key="GridCell.Tab.0.center/0.27.1920.987@0.27.1920.987" timestamp="1578872639003" />
+    <state width="1874" height="254" key="GridCell.Tab.0.left" timestamp="1578872639002">
+      <screen x="0" y="27" width="1920" height="987" />
+    </state>
+    <state width="1874" height="254" key="GridCell.Tab.0.left/0.27.1920.987@0.27.1920.987" timestamp="1578872639002" />
+    <state width="1874" height="254" key="GridCell.Tab.0.right" timestamp="1578872639003">
+      <screen x="0" y="27" width="1920" height="987" />
+    </state>
+    <state width="1874" height="254" key="GridCell.Tab.0.right/0.27.1920.987@0.27.1920.987" timestamp="1578872639003" />
+    <state x="441" y="155" width="1037" height="737" key="SettingsEditor" timestamp="1579686603973">
+      <screen x="0" y="27" width="1920" height="987" />
+    </state>
+    <state x="441" y="155" width="1037" height="737" key="SettingsEditor/0.27.1920.987@0.27.1920.987" timestamp="1579686603973" />
+    <state x="608" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1579701611992">
+      <screen x="0" y="27" width="1920" height="987" />
+    </state>
+    <state x="608" y="348" key="com.intellij.ide.util.TipDialog/0.27.1920.987@0.27.1920.987" timestamp="1579701611992" />
+    <state x="623" y="242" width="672" height="678" key="search.everywhere.popup" timestamp="1579685246418">
+      <screen x="0" y="27" width="1920" height="987" />
+    </state>
+    <state x="623" y="242" width="672" height="678" key="search.everywhere.popup/0.27.1920.987@0.27.1920.987" timestamp="1579685246418" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/organisms/about/About.tsx</url>
+          <line>70</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,0 +1,25 @@
+@import "components/templates/home/home";
+@import "style/components/feature_box";
+
+.section_features {
+  padding: 30rem 0 20rem;
+   background-image: linear-gradient(
+                  to right bottom,
+                  rgba($color-primary-light, 0.8),
+                  rgba($color-primary-dark, 0.8)
+  ),
+   url("/static/images/nat-4.jpg");
+  background-size: cover;
+  transform: skewY(-7deg);
+  margin-top: -20rem;
+
+  @include responsive(tab-port) {
+    padding: 10rem 0;
+  }
+
+  & > * {
+    transform: skewY(7deg);
+  }
+
+}
+

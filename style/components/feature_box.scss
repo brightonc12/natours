@@ -1,0 +1,36 @@
+@import "style/abstracts/variables";
+@import "../abstracts/mixins";
+
+
+.featureBox {
+  background-color: rgba($color-white, .8);
+  font-size: 1.8rem;
+  padding: 3.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 2rem 4rem rgba($color-black, .15);
+  transition: all .2s;
+
+  @include responsive(tab-port) {
+    padding: 2rem;
+  }
+
+  &_icon {
+    font-size: 7rem;
+    margin-bottom: .6rem;
+    color: $color-primary;
+
+    @include responsive(tab-port) {
+    margin-bottom: 0;
+  }
+  }
+
+  &_text {
+
+  }
+
+  &:hover {
+    transform: translateY(-1rem) scale(1.03);
+  }
+
+}
